@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Atom Loader</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body{
+            font-size: 62.5%;background: #222
+        }
+        .main-div{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #fff;
+            }
+        .loader{
+        animation: loader 2s linear infinite reverse;}
+        @keyframes loader{
+            to{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-div">
+            <span class="loader">
+                <img src="science-1.1s-200px.png" alt="react" width="500">
+            </span>
+        </div>
+    </div>
+</body>
+</html>
